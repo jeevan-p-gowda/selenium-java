@@ -15,13 +15,12 @@ import java.time.Duration;
 
 public class RelativeLocators {
     WebDriver driver;
-    WebDriverWait wait;
     @BeforeClass
     void setUp(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://automationbookstore.dev/");
     }
 
