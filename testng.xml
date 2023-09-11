@@ -3,11 +3,7 @@
 <suite name="Grid" parallel="classes">
     <test thread-count="5" verbose="2" preserve-order="true" name="/Users/testvagrant/Desktop/selenium-java/src/test/java/docker/grid">
         <classes>
-            <class name="docker.grid.ChromeTest1"/>
-            <class name="docker.grid.ChromeTest2"/>
-            <class name="docker.grid.ChromeTest3"/>
-            <class name="docker.grid.FirefoxTest"/>
-            <class name="docker.grid.EdgeTest"/>
+            <class name="selenium4.Screenshot"/>
         </classes>
     </test>
 </suite>
