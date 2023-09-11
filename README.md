@@ -1,4 +1,4 @@
-## Selenium-Java <img align="right" src="https://avatars.githubusercontent.com/u/983927?s=200&v=4" width="auto" height="100" title='Selenium'/>
+# Selenium-Java <img align="right" src="https://avatars.githubusercontent.com/u/983927?s=200&v=4" width="auto" height="100" title='Selenium'/>
 Educate on Selenium latests.
 ### 🧬 Features
 1. [Docker implementation](src/test/java/docker)
@@ -18,12 +18,13 @@ Educate on Selenium latests.
       3. Add Docker [plugin](https://plugins.jetbrains.com/plugin/7724-docker) to IDE
    2. Start / Stop containers
       1. ```docker-compose up``` (or) Start directly ```docker-compose.yml```
-      2. Post-Execution ```docker-compose down``` (or) Stop ```docker-compose.yml```
+      2. Open terminal and check for up and running ```docker ps -a```
+      3. Post-Execution ```docker-compose down``` (or) Stop ```docker-compose.yml```
    3. Run & View tests
       1. Run [TestNG](testng.xml) xml
       2. View http://localhost:4444/ui
 2. Selenium tests
-   1. ```mvn clean test io.qameta.allure:allure-maven:serve```
+   ```mvn clean test io.qameta.allure:allure-maven:serve```
 ### 📚 Stack
 * Lang - Java 8
 * Library - Selenium
